@@ -18,4 +18,7 @@ A small project on multi-threaded automation of cutting the price of goods using
 
 ## Also
 Also, the `accounts.txt` file will be created in the folder with the program, in which the logins and passwords of the created accounts will be recorded.
+
+## Result
+
 ![alt text](https://github.com/Genya45/Aliexpress_Splash_It/blob/main/Screenshot.png)
