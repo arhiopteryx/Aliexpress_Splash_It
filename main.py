@@ -28,7 +28,7 @@ LINK_MAIL = 'https://harakirimail.com/inbox/'
 MAIL_NAME = 'login' # Введите уникальный логин, на который будет регестрироваться новый аккаунт 
 MAIL_NAME_CODE = '01' # Начальное значение уникальности логина
 MAIL_SECOND_NAME = '@harakirimail.com'#  Будет добавляться к логину для формирования почты
-PASSWORD_LABEL = 'genya1488'# Введите пароль на создаваемый аккаунт
+PASSWORD_LABEL = 'password'# Введите пароль на создаваемый аккаунт
 
 # Не нужное
 '''
