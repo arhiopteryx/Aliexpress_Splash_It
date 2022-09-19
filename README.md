@@ -18,7 +18,8 @@ A small project on multi-threaded automation of cutting the price of goods using
 
 ## Also
 Also, the `accounts.txt` file will be created in the folder with the program, in which the logins and passwords of the created accounts will be recorded.
-By default, it works in "headless mode". Therefore, if you need process visibility, you must comment out the line `options.add_argument("--headless")`
+
+By default, program works in "headless mode". Therefore, if you need process visibility, you must comment out the line `options.add_argument("--headless")`
 
 ## Result
 
