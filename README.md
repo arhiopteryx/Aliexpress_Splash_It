@@ -12,8 +12,7 @@ A small project on multi-threaded automation of cutting the price of goods using
 3. For the program to work, the folder must also contain the current version of the chromedriver.exe file (it must match the current version of the Chrome browser), since the parser works on SELENIUM. You can download from the link `https://chromedriver.chromium.org/downloads`
 4. On the main account, get a link from Splash It like `https://a.aliexpress.com/_uQVeli` and add it to the `LINK_HELP_FRIEND` variable
 5. Replace the `MAIL_NAME` and `PASSWORD_LABEL` fields with your desired values. Optionally change the number of threads in the `number_of_threads` variable (default `2`)
-6. Run the program
-`python main.py`
+6. Run a program with multiple threads `python main.py` or with 1 thread `python mainwork.py`. It can also be launched using the `run_thread.bat` or `run_not_thread.bat` files, respectively
 
 
 ## Also
