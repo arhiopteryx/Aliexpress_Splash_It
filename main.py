@@ -57,7 +57,7 @@ def funcReg(cod, browser, browserMail):
         #to form slider
         frame_0 = browser.find_element(By.ID, 'baxia-dialog-content')
         browser.switch_to.frame(frame_0)
-        print('Поиск фрейма')
+        print('Find Slider`s frame ')
 
         #find slider`s elements
         slider = browser.find_element(By.ID, "nc_1_n1z")       
