@@ -92,7 +92,7 @@ def funcRegOld():
         #to form slider
         frame_0 = browser.find_element(By.ID, 'baxia-dialog-content')
         browser.switch_to.frame(frame_0)
-        print('Поиск фрейма')
+        print('Find Slider`s frame ')
 
         #find slider`s elements
         slider = browser.find_element(By.ID, "nc_1_n1z")       
@@ -115,7 +115,7 @@ def funcRegOld():
     
     print("Get mail code")
 
-    sleep(1)
+    sleep(6)
     browserMail.get(LINK_MAIL + MAIL_NAME + mailCodeName)
     elems = browserMail.find_elements_by_xpath("//a[@href]")
     linkCurMail = ''
