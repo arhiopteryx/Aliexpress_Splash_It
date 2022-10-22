@@ -80,9 +80,9 @@ def funcReg(cod, browser, browserMail):
     
     print("Get mail code")
 
-    sleep(6)
+    sleep(10)
     browserMail.get(LINK_MAIL + MAIL_NAME + cod)
-    elems = browserMail.find_elements_by_xpath("//a[@href]")
+    elems = browserMail.find_elements(By.XPATH, '//*[@id="mail_list_body"]/tr[1]/td[2]/a')
     linkCurMail = ''
     for elem in elems:
         if 'email' in elem.get_attribute("href"):
@@ -116,7 +116,7 @@ def funcReg(cod, browser, browserMail):
         print('error confirm code')
 
     print("code input correct")
-    sleep(10)
+    sleep(20)
 
 
 def funcThread(barrier, codeNam):
