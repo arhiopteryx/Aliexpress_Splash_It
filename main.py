@@ -42,7 +42,7 @@ def funcReg(cod, browser, browserMail):
 
     #click reg new user
     try:        
-        elem = browser.find_element(By.CLASS_NAME, 'cosmos-btn')
+        elem = browser.find_element(By.CLASS_NAME, 'create-submit')
         elem.click()
         sleep(1)
     except:
@@ -72,7 +72,7 @@ def funcReg(cod, browser, browserMail):
         #exit form frame
         browser.switch_to.default_content()  
         #again click reg new user  
-        submit = browser.find_element(By.CLASS_NAME, 'cosmos-btn')
+        submit = browser.find_element(By.CLASS_NAME, 'create-submit')
         submit.click()
         
     except:
